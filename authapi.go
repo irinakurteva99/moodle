@@ -2,8 +2,9 @@ package moodle
 
 import (
 	"context"
-	"github.com/k-yomo/moodle/pkg/urlutil"
 	"path"
+
+	"github.com/irinakurteva99/moodle/pkg/urlutil"
 )
 
 type AuthAPI interface {

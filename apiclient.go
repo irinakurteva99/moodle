@@ -2,12 +2,13 @@ package moodle
 
 import (
 	"context"
-	"github.com/k-yomo/moodle/pkg/urlutil"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
 	"path"
+
+	"github.com/irinakurteva99/moodle/pkg/urlutil"
 )
 
 type apiClient struct {

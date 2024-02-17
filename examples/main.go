@@ -3,8 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/k-yomo/moodle"
 	"net/url"
+
+	"github.com/irinakurteva99/moodle"
 )
 
 func main() {
