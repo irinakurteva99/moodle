@@ -31,3 +31,11 @@ type Course struct {
 	ShowShortName   bool
 	CourseCategory  string
 }
+
+type Student struct {
+	FN        string
+	FirstName string
+	LastName  string
+	Role      string
+	Group     string
+}
