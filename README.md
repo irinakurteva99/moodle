@@ -19,6 +19,7 @@ import (
 	"net/url"
 )
 
+/TODO should not panic
 func main() {
 	ctx := context.Background()
 	serviceURL, err := url.Parse("https://my.uopeople.edu")
